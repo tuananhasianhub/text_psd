@@ -1,0 +1,280 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Raleway';
+@import url('reset.css');
+
+.hidden{
+	display: none;
+}
+.clearfix{
+	clear: both;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+#wrapper{
+	margin: 0px auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400; 
+	width: 1349px;
+	box-sizing: border-box;
+}
+.container{
+	margin: 0px 100px;
+}
+/*==================================HEADER============================================*/
+#header{
+	border-top: 10px solid #2ecc71;
+	background: url('../images/header.png');
+	height: 545px;
+	background-size: cover;
+	position: relative;
+}
+	#header #header-content{
+		position: absolute;
+		top: 120px;
+		left:300px;
+		width: 460px;
+	}
+		#header #header-content #heading-title{
+			font-family: 'Pacifico', cursive;
+			font-size: 60px;
+			color: #fff;
+			line-height: 110px;
+		}
+			#header #header-content #heading-title #green-dot{
+				color: #2ecc71;
+			}
+		#header #header-content #heading-status{
+			color: #fff;
+			margin-top: 30px;
+			font-size: 24px;
+		}
+		#header #header-content #heading-devide{
+			margin-top: 30px;
+		}
+			#header #header-content #heading-devide li{
+				float: left;
+				margin-right: 15px;
+			}
+			#header #header-content #heading-devide li a{
+				background-color: #372318;
+				opacity: 0.5;
+				border-radius: 50%;
+				width: 53px;
+				height: 53px;
+				display: block;
+			}
+			#header #header-content #heading-devide li a:hover{
+				background-color: #2ecc71;
+				opacity: 1;
+			}
+				#header #header-content #heading-devide li a i{
+					font-size: 25px;
+					color: #b09d93;
+					display: block;
+					line-height: 53px;
+					text-align: center;
+				}
+				#header #header-content #heading-devide li a:hover i{
+					color: #fff;
+				}
+/*========================================MAIN====================================*/
+#main{
+	margin-top: 60px;
+}
+	/*-------------------------feature---------------------------*/
+	#main .features{
+		text-align: center;
+		float: left;
+		width: 330px;
+		margin-right: 75px;
+		margin-bottom: 60px;
+	}
+	#main #last-features{
+		margin-right: 0px;
+	}
+		#main .features h3{
+			font-size: 24px;
+			font-family: 'Myriad Pro', sans-serif;
+			text-transform: capitalize;
+		}
+		#main .features .feartures-img{
+			margin-bottom: 30px;
+		}
+			#main .features .feartures-img a{
+				padding: 27.5px;
+			    width: 45px;
+			    height: 45px;
+			    display: block;
+			    color: #fff;
+			    background-color: #2ecc71;
+			    border-radius: 50%;
+			    margin-left: 120px;
+			}
+		#main .features p{
+			margin-top: 30px;
+			color: #848484;
+			font-size: 16px;
+			line-height: 25px;
+			font-family: 'Open Sans', sans-serif;
+		}
+	/*--------------------------------notify-------------------------------*/
+	#notify{
+		background-color: #e5e5e5;
+		height: 430px;
+	}
+		#notify #section-notify{
+			padding-top: 60px;
+			width: 530px;
+			margin-right: 110px;
+			float: left;
+		}
+			#notify #section-notify h3{
+				font-weight: bold;
+				font-size: 22px;
+				color: #222222;
+			}
+			#notify #section-notify p{
+				line-height: 25px;
+				color: #848484;
+				font-size: 16px;
+				font-family: 'Open Sans', sans-serif;
+				margin: 25px 0px 30px 0px;
+			}
+			#notify #section-notify form{
+				position: relative;
+			}
+				#notify #section-notify #txtMail{
+				    padding: 0px 25px;
+				    height: 54px;
+				    border: 1px solid #c8c8c8;
+				    width: 254px;
+				    outline: none;
+				    border-radius: 10px 0px 0px 10px;
+				    font-size: 18px;
+				    color: #a5a5a5;
+				}
+				#notify #section-notify #btnSubmit{
+				    font-size: 22px;
+				    font-weight: bold;
+				    color: #fff;
+				    height: 56px;
+				    width: 140px;
+				    background-color: #2ecc71;
+				    outline: none;
+				    cursor: pointer;
+				    border: 1px solid #2ecc71;
+				    border-radius: 0px 10px 10px 0px;
+				    position: absolute;
+				    top: 0px;
+				    right: 85px;
+				}
+				#notify #section-notify #btnSubmit:hover{
+					background-color: #27ae60;
+				}
+	#notify-video{
+		margin-top: 60px;
+		float: left;
+	}
+		#notify-video #video{
+			width: 500px;
+			height: 300px;
+			border-radius: 10px;
+		}
+/*-------------------------------------*/
+.status{
+	margin-top: 60px;
+	text-align: center;
+}
+	.status blockquote{
+		margin: 0px 130px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		color: #848484;
+		font-style: italic;
+		line-height: 25px;
+	}
+	.status figcaption{
+		padding: 30px 0px;
+		color: #2e2e2e;
+		font-weight: bold;
+		font-size: 18px;
+	}
+.member{
+	/*margin-bottom: 60px;*/
+}
+	.member #member-list{
+		text-align: center;
+		height: 50px;
+	}
+		.member #member-list li{
+			float: left;
+			margin-right: 4px;
+		}
+#title-getintouch{
+	text-align: center;
+	color: #2e2e2e;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 60px;
+}
+#content-getintouch{
+	padding: 20px 0px 30px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #a5a5a5;
+	text-align: center;
+}
+#social{
+	
+}
+	#social #social-list{
+		margin-bottom: 60px;
+		height: 35px;
+		text-align: center;
+		margin-left: 550px;
+	}
+		#social #social-list li{
+			float: left;
+			margin-right: 10px;
+		}
+			#social #social-list li a{
+				display: block;
+				line-height: 35px;
+				width: 35px;
+				height: 35px;
+				background-color: #d4d4d4;
+				border-radius: 50%;
+			}
+			#social #social-list li a:hover{
+				background-color: #62d995;
+			}
+				#social #social-list li a i{
+					color: #fff;
+				}
+/*=======================================FOOTER====================================*/
+#footer{
+	background-color: #e3e3e3;
+	text-align: center;
+	padding: 60px 0px;
+	margin-bottom: 20px;
+}	
+	#footer #footer-list{
+		width: 100%;
+	}
+		#footer #footer-list li{
+			display: inline;
+			margin-right: 35px;
+		}
+		#footer #footer-list li:last-child{
+			margin-right: 0px;
+		}
+			#footer #footer-list li a{
+				color: #9d9d9d;
+				font-size: 16px;
+			}
+			#footer #footer-list li a:hover{
+				color: #2ecc71;
+			}
